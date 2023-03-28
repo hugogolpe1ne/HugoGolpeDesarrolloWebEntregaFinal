@@ -7,12 +7,14 @@ body {
 }
 
 .formulario {
-  display: block;
+  width: 25%;
+  display: flex;
+  justify-content: center;
   border: 1px solid white;
   border-radius: 10%;
-  width: 500px;
   padding: 10px;
   background-color: silver;
+  text-align: center;
 }
 .buttonForm {
   color: black;
@@ -215,7 +217,7 @@ footer {
 position: relative;
 bottom:-180px;   
 }
-.NavFooter {
+.divfooter {
   background-color: silver;
   display: flex;
   justify-content: space-evenly;
